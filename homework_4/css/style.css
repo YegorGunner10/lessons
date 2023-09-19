@@ -1,0 +1,63 @@
+/* Reset styles */
+@import url("reset.css");
+
+* {
+	color: yellowgreen;
+}
+
+a {
+	color: blueviolet;
+}
+
+li {
+	color: cadetblue;
+}
+
+.red-p {
+	color: red;
+}
+
+#blue-p {
+	color: blue;
+}
+
+.paragraph-text.text {
+	color: aquamarine;
+}
+
+.second-paragraph,
+.sixth-paragraph {
+	color: black;
+}
+
+#footer a {
+	color: aqua;
+}
+
+.sixth-paragraph .paragraph-p {
+	color: orange;
+}
+
+div.paragraph-text * {
+	color: violet;
+}
+
+div > p {
+	color: gray;
+}
+
+.paragraph-title ~ p {
+	color: gold;
+}
+
+.paragraph-text + p {
+	color: brown;
+}
+
+[class*="some"] {
+	color: darkseagreen;
+}
+
+.some-class {
+	color: brown !important;
+}
