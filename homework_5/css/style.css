@@ -1,0 +1,111 @@
+/* Reset styles */
+@import url("reset.css");
+
+/* Connecting fonts manually */
+@import url("fonts.css");
+
+/* Connecting fonts from plugin */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.44;
+	color: #7D7D7D;
+}
+
+.logo {
+	text-align: center;
+}
+
+.navigation {
+	text-align: right;
+}
+
+.navigation a {
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	text-decoration: underline;
+	color: #7AB6D1;
+}
+
+.about,
+.screenshots,
+.requirements {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: #333333;
+}
+
+.about h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #79ABDC;
+	text-shadow: 2px 2px 2px rgba(31, 53, 76, 0.5);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 20px;
+}
+
+.about {
+	text-indent: 20px;
+}
+
+.screenshots h2,
+.requirements h2 {
+	font-weight: 500;
+	font-size: 30px;
+	color: #79ABDC;
+}
+
+.screenshots-images {
+	text-align: center;
+}
+
+.requirements li {
+	font-weight: 500;
+	font-style: italic;
+}
+
+.part2-first h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	line-height: 1.27;
+	font-weight: 600;
+	color: #37393F;
+	text-transform: capitalize;
+}
+
+.part2-first h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	line-height: 1.25;
+	font-weight: 600;
+	color: #6B77E5;
+}
+
+.part2-second h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	line-height: 1.27;
+	font-weight: 700;
+	color: #37393F;
+	text-transform: capitalize;
+}
+
+.part2-second li {
+	font-weight: 500;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+}
