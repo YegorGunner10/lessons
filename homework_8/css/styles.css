@@ -1,0 +1,426 @@
+/* Connecting Fonts */
+@import url("fonts.css");
+
+/* Reset Styles */
+@import url("reset.css");
+
+body {
+	background: url("../img/bg.webp");
+}
+
+/* Header Styles */
+header {
+	background-color: #0A0A0A;
+}
+
+.navigation {
+	max-width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(45deg, #B59C7D 0%, #C1AD94 50%, #CCCDCD 100%);
+	border-radius: 0 0 20px 20px;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation a {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* Iphones Styles */
+.iphones {
+	margin-bottom: 100px;
+}
+
+.iphone-black-01 {
+	background: url("../img/01.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-white-01 {
+	background: url("../img/02.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-black-02 {
+	background: url("../img/03.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-white-02 {
+	background: url("../img/04.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-black-03 {
+	background: url("../img/05.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-white-03 {
+	background: url("../img/06.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-black-04 {
+	background: url("../img/07.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+.iphone-white-04 {
+	background: url("../img/08.jpg") 50% / cover no-repeat fixed;
+	height: 100vh;
+}
+
+/* Care Styles */
+.care {
+	max-width: 713px;
+	margin: 0 auto 100px;
+	padding: 50px 20px;
+	background-color: #ffffff;
+}
+
+.care-subtitle,
+.care-content p,
+.care-icons p,
+.care-icons-link,
+.projects p {
+	font-family: "Inter", sans-serif;
+}
+
+.care-subtitle,
+.care-content p,
+.care-icons-link,
+.projects p {
+	font-size: 18px;
+}
+
+.care-subtitle,
+.care-title,
+.care-list li,
+.care-icons-title {
+	color: #37393F;
+}
+
+.care-subtitle {
+	font-weight: 500;
+	text-transform: capitalize;
+	display: inline-block;
+	margin-bottom: 16px;
+	background: url("../img/box.jpg") 0 2px / 12px 12px no-repeat;
+	padding-left: 18px;
+}
+
+.care-title,
+.care-list li,
+.care-icons-title {
+	font-family: "Poppins", sans-serif;
+}
+
+.care-content p,
+.care-icons p,
+.projects p {
+	color: #7D7D7D;
+}
+
+.care-title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.care-title-width {
+	max-width: 414px;
+}
+
+.care-text {
+	margin-bottom: 20px;
+}
+
+.care-content p,
+.projects p {
+	line-height: 1.46;
+	margin-bottom: 15px;
+}
+
+.care-list {
+	margin-bottom: 43px;
+}
+
+.care-list li {
+	font-size: 20px;
+	line-height: 1.46;
+	margin-bottom: 23px;
+	background: url("../img/point.png") 0 0 / 27px 27px no-repeat;
+	padding-left: 35px;
+	min-height: 27px;
+}
+
+.care-icons-title {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: inline-block;
+	margin-bottom: 5px;
+	line-height: 1.46;
+}
+
+.care-icons p {
+	font-size: 16px;
+	line-height: 1.35;
+}
+
+.care-icons {
+	font-size: 0;
+	margin-bottom: 37px;
+}
+
+.care-icons-left {
+	margin-right: 21px;
+	padding: 31px 32px 32px 90px;
+	background: url("../img/experience.png") 32px 31px / 42px 41px no-repeat;
+}
+
+.care-icons-left,
+.care-icons-right {
+	display: inline-block;
+	max-width: 295px;
+	border: 1px solid #E3E3E3;
+}
+
+.care-icons-right {
+	padding: 31px 37px 32px 92px;
+	background: url("../img/awards.png") 37px 31px / 42px 42px no-repeat;
+}
+
+.care-icons-link {
+	display: inline-block;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #ffffff;
+	background-color: #6B77E5;
+	padding: 22px 27px;
+}
+
+/* Projects Styles */
+.projects {
+	max-width: 1250px;
+	margin: 0 auto 100px;
+	padding: 50px 15px;
+	background-color: #ffffff;
+}
+
+.care-title-center {
+	text-align: center;
+	max-width: 852px;
+	margin: 0 auto;
+	margin-bottom: 47px;
+}
+
+.care-title-center .care-title {
+	text-transform: none;
+	margin-bottom: 15px;
+}
+
+.projects-images {
+	font-size: 0;
+}
+
+/* 2 дні ламав голову, як зробити правильно цю картку не задаючи їй фіксованих розмірів. Чесно, не витримав і пішов підглянути у "перевірку домашок". Навіть і подумати не міг, що width і max-width можна так міксувати. Так що, nilline - Женя, якщо зараз саме Ви перевіряєте мою роботу, велике Вам дякую за такі тонкощі і цінні поради. Якщо ж ні, у будь-якому разі дякую Вам за перевірку цієї домашки, дорогий Ментор :) */
+.projects-images-card {
+	display: inline-block;
+	max-width: 384px;
+	width: 100%;
+	margin-bottom: 58px;
+}
+
+.first-card,
+.second-card,
+.fourth-card,
+.fifth-card {
+	margin-right: 34px;
+}
+
+.projects-images-bg {
+	min-height: 501px;
+	margin-bottom: 24px;
+}
+
+.projects-images-bg.first-bg {
+	background: url("../img/project-01.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-bg.second-bg {
+	background: url("../img/project-02.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-bg.third-bg {
+	background: url("../img/project-03.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-bg.fourth-bg {
+	background: url("../img/project-04.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-bg.fifth-bg {
+	background: url("../img/project-05.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-bg.sixth-bg {
+	background: url("../img/project-06.jpg") 50% / cover no-repeat;
+}
+
+.projects-images-content h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	color: #37393F;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.projects-images-content span {
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	line-height: 1.46;
+	color: #7D7D7D;
+	display: inline-block;
+	padding-left: 27px;
+	background: url("../img/date.png") 0 0 / 22px 22px no-repeat;
+}
+
+/* Clothing Styles */
+.clothing {
+	max-width: 1270px;
+	margin: 0 auto 100px;
+	padding: 50px 25px;
+	background-color: #ffffff;
+}
+
+.clothing h2,
+.clothing h3,
+.euphoria-link {
+	font-family: "Core Sans C", sans-serif;
+	font-weight: 700;
+}
+
+.clothing h2 {
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	color: #3C4242;
+	background: url("../img/decoration.png") 0 2px / 6px 28px no-repeat;
+	padding-left: 21px;
+	margin-bottom: 30px;
+}
+
+.clothing h3,
+.euphoria-link {
+	font-size: 20px;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	color: #807D7E;
+	margin-bottom: 25px;
+}
+
+.clothing-text {
+	padding-left: 21px;
+}
+
+.clothing p,
+.euphoria-bold {
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	color: #807D7E;
+	margin-bottom: 20px;
+}
+
+.euphoria-bold {
+	font-weight: 700;
+}
+
+/* Fashion Styles */
+.fashion {
+	max-width: 1240px;
+	margin: 0 auto 100px;
+	font-size: 0;
+}
+
+.fashion-left,
+.fashion-right {
+	display: inline-block;
+	width: 100%;
+	min-height: 639px;
+	vertical-align: top;
+
+}
+
+.fashion-left {
+	background: url("../img/fashion-left-bg.jpg") 50% / cover no-repeat;
+	max-width: 614px;
+	padding: 183px 74px 100px;
+	border-radius: 10px 0 0 10px;
+}
+
+.fashion-left h2 {
+	font-family: "Core Sans C", sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.fashion-left p {
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.fashion-link {
+	font-family: "Causten", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #3C4242;
+	text-transform: capitalize;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 12px 44px;
+	display: inline-block;
+}
+
+.fashion-right {
+	background: url("../img/fashion-right-bg.jpg") 50% / cover no-repeat;
+	max-width: 626px;
+	border-radius: 0 10px 10px 0;
+}
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer p {
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
