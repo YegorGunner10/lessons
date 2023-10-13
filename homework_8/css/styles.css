@@ -368,7 +368,7 @@ header {
 }
 
 .fashion-left {
-	background: url("../img/fashion-left-bg.jpg") 50% / cover no-repeat;
+	background: #1C2E22 url("../img/fashion-left-bg.jpg") 50% / cover no-repeat;
 	max-width: 614px;
 	padding: 183px 74px 100px;
 	border-radius: 10px 0 0 10px;
@@ -408,7 +408,7 @@ header {
 }
 
 .fashion-right {
-	background: url("../img/fashion-right-bg.jpg") 50% / cover no-repeat;
+	background: #CD9F47 url("../img/fashion-right-bg.jpg") 50% / cover no-repeat;
 	max-width: 626px;
 	border-radius: 0 10px 10px 0;
 }
