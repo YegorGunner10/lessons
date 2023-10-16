@@ -1,2 +1,155 @@
+/* Connecting Fonts */
+@import url("fonts.css");
+
 /* Reset Styles */
 @import url("reset.css");
+
+/* Header Styles */
+header {
+	margin-bottom: 50px;
+}
+
+.navigation {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation a {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.navigation li:nth-child(even) a {
+	color: #6B77E5;
+}
+
+.navigation li:nth-child(odd) a {
+	color: #40DDB6;
+}
+
+/* Why Us Styles */
+.why-us {
+	max-width: 722px;
+	margin: 0 auto 100px;
+	padding: 0 15px;
+}
+
+.why-us-content {
+	margin-bottom: 40px;
+}
+
+.why-us-content > *:last-child,
+.why-us > *:last-child {
+	margin-bottom: 0px;
+}
+
+.why-us-content img {
+	margin-bottom: 37px;
+	width: 100%;
+}
+
+.why-us-title,
+.why-us-subtitle,
+.benefits-content h3 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.why-us-title {
+	font-size: 30px;
+	color: #37393F;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.why-us-subtitle {
+	font-size: 20px;
+	margin-bottom: 19px;
+}
+
+.why-us p,
+.benefits-items {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+	color: #7D7D7D;
+}
+
+.why-us p {
+	margin-bottom: 38px;
+}
+
+.violet {
+	color: #6B77E5;
+}
+
+.mint {
+	color: #40DDB6;
+}
+
+.benefits {
+	font-size: 0;
+	margin-bottom: 50px;
+}
+
+.benefits-img {
+	max-width: 331px;
+}
+
+.benefits-img img {
+	width: 100%;
+}
+
+.benefits-content {
+	max-width: 361px;
+	padding-left: 30px;
+}
+
+.benefits-content > * {
+	margin-bottom: 19px;
+}
+
+.benefits-img,
+.benefits-content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.benefits-content h3 {
+	font-size: 25px;
+	color: #37393F;
+	margin-bottom: 16px;
+}
+
+.benefits-items li {
+	margin-bottom: 26px;
+}
+
+.benefits-items li:last-of-type {
+	margin-bottom: 0;
+}
+
+.benefits-content > *:last-child {
+	margin-bottom: 0;
+}
+
+.benefits-items li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/points.png") 0 0 / 27px 28px no-repeat;
+	width: 27px;
+	height: 28px;
+	border-radius: 50%;
+	margin: 0 8px -5px 0;
+}
