@@ -194,7 +194,7 @@ header {
 .care-subtitle::before {
 	content: "";
 	display: inline-block;
-	background: url("../img/rectangle.png") 0 0 / 12px 12px no-repeat;
+	background-color: #40DDB6;
 	height: 12px;
 	width: 12px;
 	margin-right: 6px;
@@ -281,7 +281,7 @@ header {
 /* Work Styles */
 .work {
 	max-width: 1250px;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding: 0 15px 50px;
 }
 
@@ -387,4 +387,107 @@ header {
 
 .work-content > *:last-child {
 	margin-bottom: 0;
+}
+
+/* Jewellery Styles */
+.jewellery {
+	max-width: 1244px;
+	margin: 0 auto;
+	padding: 0 15px 40px;
+	font-size: 0;
+}
+
+.jewellery-content,
+.jewellery-first-image,
+.jewellery-second-image {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.jewellery-content {
+	max-width: 460px;
+	margin-right: 21px;
+	padding-top: 150px;
+}
+
+.jewellery-content > *:not(:last-child),
+.jewellery-first-image > *:not(:last-child),
+.jewellery-second-image > *:not(:last-child) {
+	margin-bottom: 31px;
+}
+
+.jewellery-link > *:last-child {
+	margin-bottom: 0;
+}
+
+.jewellery-content h2,
+.jewellery-title,
+.jewellery-price,
+.jewellery-second-image h3 {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	color: #000000;
+}
+
+.jewellery-content h2 {
+	font-size: 60px;
+	line-height: 1.15;
+	text-transform: capitalize;
+}
+
+.jewellery-content h2::after {
+	content: "";
+	display: block;
+	width: 291px;
+	height: 3px;
+	background-color: #78473B;
+	margin-top: 10px;
+}
+
+.jewellery-first-image {
+	margin-right: 45px;
+	padding-top: 32px;
+}
+
+.jewellery-first-image,
+.jewellery-second-image {
+	max-width: 344px;
+	width: 100%;
+}
+
+.jewellery-image-box {
+	max-width: 334px;
+	border: 1px solid #000000;
+	padding: 8px 0 0 9px;
+	margin-bottom: 32px;
+}
+
+.jewellery-image-box img {
+	max-width: 334px;
+	margin-bottom: -8px;
+}
+
+.jewellery-title,
+.jewellery-price {
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.jewellery-title {
+	margin-bottom: 3px;
+}
+
+.jewellery-second-image h3 {
+	font-size: 46px;
+	line-height: 1.13;
+}
+
+.jewellery-first-image a,
+.jewellery-second-image a {
+	display: inline-block;
+}
+
+.jewellery-first-image a:hover .jewellery-title,
+.jewellery-second-image a:hover .jewellery-title {
+	text-decoration: underline;
 }
