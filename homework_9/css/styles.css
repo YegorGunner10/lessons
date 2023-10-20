@@ -392,7 +392,7 @@ header {
 /* Jewellery Styles */
 .jewellery {
 	max-width: 1244px;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding: 0 15px 40px;
 	font-size: 0;
 }
@@ -490,4 +490,124 @@ header {
 .jewellery-first-image a:hover .jewellery-title,
 .jewellery-second-image a:hover .jewellery-title {
 	text-decoration: underline;
+}
+
+/* Practice Styles */
+.practice {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px 50px;
+}
+
+.practice > *:not(:last-child),
+.practice-links > *:not(:last-child),
+.childs > *:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.practice-title,
+.practice a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.practice-title {
+	font-size: 30px;
+}
+
+.practice a {
+	display: block;
+	max-width: 300px;
+	padding: 10px 30px;
+	background-color: #000000;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.link-hover:hover {
+	color: #6B77E5;
+}
+
+.link-active:active {
+	color: #40DDB6;
+}
+
+.link-visited:visited {
+	color: #7D7D7D;
+}
+
+.link-focus:focus {
+	border: 3px solid #ff0000;
+}
+
+.link-target {
+	visibility: hidden;
+}
+
+.link-target:target {
+	visibility: visible;
+}
+
+.childs {
+	text-align: center;
+}
+
+.first-child > *:not(:last-child),
+.last-child > *:not(:last-child),
+.nth-child > *:not(:last-child),
+.nth-child-3n > *:not(:last-child),
+.before-after > *:not(:last-child) {
+	margin-right: 20px;
+}
+
+.first-child div,
+.last-child div,
+.nth-child div,
+.nth-child-3n div,
+.before-after div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #40DDB6;
+	border-radius: 50%;
+}
+
+.first-child div:first-child,
+.last-child div:last-child,
+.nth-child div:nth-child(odd),
+.nth-child-3n div:nth-child(3n + 1),
+.before-after:hover::before,
+.before-after:hover::after {
+	background-color: #6B77E5;
+}
+
+.before-after::before,
+.before-after::after {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.before-after::before {
+	margin-right: 20px;
+}
+
+.before-after::after {
+	margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #333333;
 }
