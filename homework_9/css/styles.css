@@ -495,13 +495,14 @@ header {
 /* Practice Styles */
 .practice {
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding: 0 15px 50px;
 }
 
 .practice > *:not(:last-child),
 .practice-links > *:not(:last-child),
-.childs > *:not(:last-child) {
+.childs > *:not(:last-child),
+.game > *:not(:last-child) {
 	margin-bottom: 20px;
 }
 
@@ -603,8 +604,118 @@ header {
 	margin-left: 20px;
 }
 
+/* Game Styles */
+.game {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px 50px;
+}
+
+.game-bg {
+	padding: 20px;
+	background-color: #000000;
+	border-radius: 10px;
+}
+
+.start {
+	width: 50px;
+	height: 50px;
+	background-color: #ffffff;
+}
+
+[class*="line"] {
+	background-color: #ffffff;
+	visibility: hidden;
+}
+
+.line-01 {
+	width: 50px;
+	height: 100px;
+}
+
+.line-02 {
+	width: 100%;
+	height: 50px;
+}
+
+.line-03 {
+	width: 50px;
+	height: 100px;
+	margin-left: auto;
+}
+
+.line-04 {
+	width: 100%;
+	height: 30px;
+}
+
+.line-05 {
+	width: 20px;
+	height: 50px;
+}
+
+.line-06 {
+	width: 100%;
+	height: 10px;
+}
+
+.line-07 {
+	width: 10px;
+	height: 50px;
+	margin-left: auto;
+}
+
+.finish {
+	width: 10px;
+	height: 10px;
+	background-color: #ff0000;
+	visibility: hidden;
+	margin-left: auto;
+}
+
+.start:hover ~ .line-01,
+.line-01:hover {
+	visibility: visible;
+}
+
+.line-01:hover ~ .line-02,
+.line-02:hover {
+	visibility: visible;
+}
+
+.line-02:hover ~ .line-03,
+.line-03:hover {
+	visibility: visible;
+}
+
+.line-03:hover ~ .line-04,
+.line-04:hover {
+	visibility: visible;
+}
+
+.line-04:hover ~ .line-05,
+.line-05:hover {
+	visibility: visible;
+}
+
+.line-05:hover ~ .line-06,
+.line-06:hover {
+	visibility: visible;
+}
+
+.line-06:hover ~ .line-07,
+.line-07:hover {
+	visibility: visible;
+}
+
+.line-07:hover ~ .finish,
+.finish:hover {
+	visibility: visible;
+}
+
 /* Footer Styles */
 footer {
+	padding: 10px 15px;
 	text-align: center;
 	font-family: "Poppins", sans-serif;
 	font-size: 12px;
