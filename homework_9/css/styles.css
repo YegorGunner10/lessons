@@ -673,44 +673,10 @@ header {
 	margin-left: auto;
 }
 
-.start:hover ~ .line-01,
-.line-01:hover {
-	visibility: visible;
-}
-
-.line-01:hover ~ .line-02,
-.line-02:hover {
-	visibility: visible;
-}
-
-.line-02:hover ~ .line-03,
-.line-03:hover {
-	visibility: visible;
-}
-
-.line-03:hover ~ .line-04,
-.line-04:hover {
-	visibility: visible;
-}
-
-.line-04:hover ~ .line-05,
-.line-05:hover {
-	visibility: visible;
-}
-
-.line-05:hover ~ .line-06,
-.line-06:hover {
-	visibility: visible;
-}
-
-.line-06:hover ~ .line-07,
-.line-07:hover {
-	visibility: visible;
-}
-
-.line-07:hover ~ .finish,
-.finish:hover {
-	visibility: visible;
+.start:hover + .game-line,
+.game-line:hover,
+.game-line:hover + .game-line {
+  visibility: visible;
 }
 
 /* Footer Styles */
