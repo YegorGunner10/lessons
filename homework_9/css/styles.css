@@ -456,14 +456,14 @@ header {
 }
 
 .jewellery-image-box {
-	max-width: 334px;
+	width: 334px;
 	border: 1px solid #000000;
 	padding: 8px 0 0 9px;
 	margin-bottom: 32px;
 }
 
 .jewellery-image-box img {
-	max-width: 334px;
+	width: 334px;
 	margin-bottom: -8px;
 }
 
