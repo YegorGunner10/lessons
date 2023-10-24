@@ -458,13 +458,13 @@ header {
 .jewellery-image-box {
 	width: 334px;
 	border: 1px solid #000000;
-	padding: 8px 0 0 9px;
-	margin-bottom: 32px;
+	padding-top: 8px;
+	margin-bottom: 34px;
 }
 
 .jewellery-image-box img {
-	width: 334px;
-	margin-bottom: -8px;
+	width: 100%;
+	margin: 0 0 -9px 10px;
 }
 
 .jewellery-title,
@@ -474,7 +474,7 @@ header {
 }
 
 .jewellery-title {
-	margin-bottom: 3px;
+	margin-bottom: 4px;
 }
 
 .jewellery-second-image h3 {
