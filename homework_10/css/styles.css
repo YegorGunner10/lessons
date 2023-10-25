@@ -49,13 +49,11 @@ main img {
 }
 
 .icons img,
-.design-elements img,
 .logos img {
 	vertical-align: middle;
 }
 
-.icons > *:not(:last-child),
-.design-elements > *:not(:last-child) {
+.icons > *:not(:last-child) {
 	margin-right: 10px;
 }
 
