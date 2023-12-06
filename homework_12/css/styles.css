@@ -427,6 +427,7 @@
 	left: 0;
 	width: 100%;
 	text-align: center;
+	padding: 0 15px;
 	visibility: hidden;
 }
 
@@ -450,7 +451,6 @@
 
 .social-experts__list {
 	font-size: 0;
-	padding: 0 15px;
 }
 
 .social-experts__list > *:not(:last-child) {
