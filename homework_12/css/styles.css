@@ -402,6 +402,11 @@
 	margin-bottom: 31px;
 }
 
+.experts__container > *:last-child {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
 .experts__image {
 	width: 100%;
 }
