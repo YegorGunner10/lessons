@@ -211,7 +211,6 @@
 	background-color: #6B77E5;
 	text-transform: capitalize;
 	padding: 21px 35px 22px;
-	max-width: 184px;
 	vertical-align: middle;
 }
 
@@ -373,6 +372,7 @@
 	padding: 15px 10px;
 	display: inline-block;
 	max-width: 67px;
+	z-index: 10;
 }
 
 .chat__link:hover {

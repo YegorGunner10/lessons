@@ -1,0 +1,180 @@
+/* Connecting Fonts */
+@import url("fonts.css");
+
+/* Reset Styles */
+@import url("reset.css");
+
+/* Wrapper Styles */
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+
+[class*="__container"] {
+	max-width: 1030px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+	text-align: center;
+}
+
+.header__title {
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+/* Practice Styles */
+.practice {
+	font-size: 0;
+	padding: 20px 0;
+}
+
+.practice > * {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.practice > *:nth-child(6n),
+.practice > *:last-child {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.practice__block {
+	width: 150px;
+	height: 150px;
+	background-color: #AFEEEE;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.practice__item {
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	width: 150px;
+	height: 150px;
+	background-color: #008B8B;
+	padding: 10px;
+}
+
+.practice__item--translate {
+	transform: translate(10px, 10px);
+}
+
+.practice__item--scale {
+	transform: scale(0.7);
+}
+
+.practice__item--rotate {
+	transform: rotate(15deg);
+}
+
+.practice__item--scew {
+	transform: skew(-10deg);
+}
+
+.practice__item--origin {
+	transform-origin: 20px 10px;
+	transform: rotate(-10deg);
+}
+
+.practice__block--perspective {
+	perspective: 300px;
+}
+
+.practice__item--perspective {
+	transform: rotateX(30deg);
+}
+
+.practice__item--translate3d {
+	transform: translate3d(10px, 10px, -50px);
+}
+
+.practice__item--scale3d {
+	transform: scale3d(0.7, 1, 1);
+}
+
+.practice__item--rotate3d {
+	transform: rotate3d(10, 15, 10, 25deg);
+}
+
+.practice__block--flip {
+	position: relative;
+	perspective: 500px;
+}
+
+.practice__item--flip-front,
+.practice__item--flip-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transition: all 0.3s;
+}
+
+.practice__item--flip-front {
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+}
+
+.practice__item--flip-back {
+	transform: rotateY(-180deg);
+}
+
+.practice__block--flip:hover .practice__item--flip-back {
+	transform: rotateY(0deg);
+}
+
+.practice__block--flip:hover .practice__item--flip-front {
+	transform: rotateY(180deg);
+}
+
+/* Car Styles */
+.car__body {
+	position: relative;
+	min-height: 500px;
+	background-color: #E0FFFF;
+}
+
+.car__road {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #696969;
+}
+
+.car__road::before {
+	content: "";
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background: linear-gradient(90deg, #fff 0%, #fff 50%, #696969 50%, #696969 100%);
+	background-size: 70px;
+}
+
+/* Footer Styles */
+.footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.footer__copy {
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+}
